@@ -1,6 +1,6 @@
 # IT-Operations-Shell-Scripts
 
-Welcome to the IT Operations Shell Scripts repository! Collection of PowerShell and CMD scripts is tailored to simplify and automate tasks for IT teams navigating the Windows cloud-managed environment, with a keen focus on optimizing workflows within Microsoft Azure,365 and Intune environments.
+Welcome to the IT Operations Shell Scripts repository! A collection of PowerShell and CMD scripts is designed to simplify and automate tasks for IT teams navigating the Windows cloud-managed environment, with a keen focus on optimizing workflows within Microsoft Azure, 365, and Intune environments.
 
 # Purpose
 
