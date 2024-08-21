@@ -16,3 +16,4 @@
 
 #enter key
 # for example: NPPR9-FWDCX-D2C8J-H872K-2YT43
+# you can delete\change the key from the PID.txt file in the "sources" folder.
