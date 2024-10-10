@@ -36,6 +36,9 @@ set "temp_file=%temp%\temp_ps1.ps1"
 
 powershell.exe -ExecutionPolicy Bypass -File "%temp_file%"
 
+:: Confirm-SecureBoot
+powershell -Command "Confirm-SecureBootUEFI"
+
 : : optional: add Languagehe.
 @echo off
 powershell.exe -ExecutionPolicy Bypass -File D:\hash\Languagehe.ps1
