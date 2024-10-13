@@ -7,29 +7,18 @@ echo.
 
 @echo off
 
-:: Check TPM 2.0 and its status
+:: Check TPM 2.0 status using PowerShell Get-Tpm command
 echo Checking TPM 2.0...
-for /F "tokens=2 delims==" %%i in ('wmic /namespace:\\root\cimv2\Security\MicrosoftTpm path Win32_Tpm get IsEnabled /value ^| findstr /i "IsEnabled"') do set "tpm_status=%%i"
-if /I "%tpm_status%"=="TRUE" (
-    echo TPM 2.0 is ENABLED
-) else (
-    echo TPM 2.0 is NOT ENABLED
-)
+powershell -Command "if ((Get-Tpm).TpmReady) { Write-Host 'TPM 2.0 is ENABLED' } else { Write-Host 'TPM 2.0 is NOT ENABLED' }"
 
-:: Check Secure Boot status
+:: Check TPM version using PowerShell
+echo Checking TPM version...
+powershell -Command "(Get-WmiObject -Namespace 'Root\CIMv2\Security\MicrosoftTpm' -Class Win32_Tpm).SpecVersion"
+
+:: Check Secure Boot status using PowerShell Confirm-SecureBootUEFI command
 echo.
 echo Checking Secure Boot status...
-bcdedit /enum firmware | findstr /i "Secure Boot"
-if %errorlevel% == 1 (
-    echo Secure Boot status: Unsupported or Secure Boot is disabled
-) else (
-    bcdedit /enum firmware | findstr /i "SecureBoot" | findstr /i "Yes"
-    if %errorlevel% == 0 (
-        echo Secure Boot status: Enabled
-    ) else (
-        echo Secure Boot status: Disabled
-    )
-)
+powershell -Command "if (Confirm-SecureBootUEFI) { Write-Host 'Secure Boot is ENABLED' } else { Write-Host 'Secure Boot is DISABLED or unsupported' }"
 
 :: Get CPU name and processor value
 echo.
@@ -60,4 +49,3 @@ wmic diskdrive get model, size /format:list | findstr /i /c:"Model" /c:"Size"
 echo.
 echo Checking Monitor information...
 wmic desktopmonitor get name /format:list | findstr /i /c:"Name"
-
