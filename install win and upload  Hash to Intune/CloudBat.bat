@@ -46,9 +46,9 @@ powershell.exe -ExecutionPolicy Bypass -File "%temp_file%"
 powershell -Command "Confirm-SecureBootUEFI"
 
 :: Confirm-TPM:
-((Get-Tpm).TpmReady)
+powershell -Command "(Get-Tpm).TpmReady"
 powershell -Command "if ((Get-Tpm).TpmReady) { Write-Host 'TPM 2.0 is ENABLED' } else { Write-Host 'TPM 2.0 is NOT ENABLED' }"
-(Get-WmiObject -Namespace "Root\CIMv2\Security\MicrosoftTpm" -Class Win32_Tpm).SpecVersion
+powershell -Command "(Get-WmiObject -Namespace 'Root\CIMv2\Security\MicrosoftTpm' -Class Win32_Tpm).SpecVersion"
 
 
 : : optional: add Languagehe.
