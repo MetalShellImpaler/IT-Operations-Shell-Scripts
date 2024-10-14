@@ -44,6 +44,7 @@ powershell.exe -ExecutionPolicy Bypass -File "%temp_file%"
 
 :: Confirm-SecureBoot
 powershell -Command "Confirm-SecureBootUEFI"
+powershell -Command "if (Confirm-SecureBootUEFI) { Write-Host 'Secure Boot is ENABLED' } else { Write-Host 'Secure Boot is DISABLED or unsupported' }"
 
 :: Confirm-TPM:
 powershell -Command "(Get-Tpm).TpmReady"
