@@ -44,7 +44,7 @@ powershell.exe -ExecutionPolicy Bypass -File "%temp_file%"
 
 :: Confirm-SecureBoot
 powershell -Command "Confirm-SecureBootUEFI"
-powershell -Command "if (Confirm-SecureBootUEFI) { Write-Host 'Secure Boot is ENABLED' } else { Write-Host 'Secure Boot is DISABLED or unsupported' }"
+powershell -Command "if (Confirm-SecureBootUEFI) { Write-Host 'Secure Boot is ENABLED' } else { Write-Host 'Secure Boot is DISABLED' }"
 
 :: Confirm-TPM:
 powershell -Command "(Get-Tpm).TpmReady"
@@ -54,7 +54,7 @@ powershell -Command "(Get-WmiObject -Namespace 'Root\CIMv2\Security\MicrosoftTpm
 
 : : optional: add Languagehe.
 @echo off
-powershell.exe -ExecutionPolicy Bypass -File D:\hash\Languagehe.ps1
+powershell.exe -ExecutionPolicy Bypass -File D:\..\Language.ps1
 
 : : Add .NET Framework 3.5
 dism /online /enable-feature /featurename:netfx3
