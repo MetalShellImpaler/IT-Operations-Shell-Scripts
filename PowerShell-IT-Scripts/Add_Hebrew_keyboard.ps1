@@ -1,5 +1,5 @@
-$LanguageToAdd = "he-IL"  # Hebrew (Israel)
-$DefaultLanguage = "en-US"  # English (United States)
+$LanguageToAdd = "he-IL"  # Hebrew
+$DefaultLanguage = "en-US"  # English
 
 # Current language list for the user
 $LanguageList = Get-WinUserLanguageList
