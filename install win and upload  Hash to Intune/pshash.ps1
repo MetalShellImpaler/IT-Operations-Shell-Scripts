@@ -1,4 +1,5 @@
-﻿#Enable script
+# Generate hardware hash csv file.
+ #Enable script
 #Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 #Get serial number
 $SN = Get-WmiObject win32_bios | select Serialnumber
