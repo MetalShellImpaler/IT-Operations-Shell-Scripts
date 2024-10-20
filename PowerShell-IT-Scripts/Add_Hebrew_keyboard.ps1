@@ -19,7 +19,7 @@ Set-WinUserLanguageList -LanguageList $LanguageList -Force
 
 # English as the default input method
 # Set Hebrew as an additional keyboard layout
-Set-WinDefaultInputMethodOverride -InputTip "0409:00000409"  # English (United States) keyboard layout
+Set-WinDefaultInputMethodOverride -InputTip "0409:00000409"  # English keyboard layout
 
 $KeyboardOptions = $LanguageList | Where-Object { $_.LanguageTag -eq $LanguageToAdd }
 
