@@ -4,7 +4,7 @@ $DefaultLanguage = "en-US"  # English
 # Current language list for the user
 $LanguageList = Get-WinUserLanguageList
 
-# Add Hebrew if it's not already in the language list
+# Add Hebrew 
 if ($LanguageList.LanguageTag -notcontains $LanguageToAdd) {
     Write-Host "Adding Hebrew language features..."
     Add-WindowsCapability -Online -Name "Language.Basic~~~$LanguageToAdd~0.0.1.0" > $null
