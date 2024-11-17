@@ -34,7 +34,9 @@ Usage
 3.	Execute the desired script by double-clicking it or running it in the appropriate shell (Command Prompt for .bat files, PowerShell for .ps1 files).
 Example Usage Scenarios
 •	Plug in a USB stick with the CloudBat.bat and pshash.ps1 scripts, then run them during a new Windows installation to streamline Intune enrollment.
+
 •	Use Sysinfo.bat to gather system information during troubleshooting or inventory tasks.
+
 •	Execute never sleep.bat on a workstation to prevent interruptions during long processes.
 ________________________________________
 Scripts Overview
@@ -44,7 +46,10 @@ GET Computer Name, Serial Number.bat
 Outputs the computer name and serial number, saving time during inventory checks or device setup.
 CloudBat.bat & pshash.ps1
 Automates the process of:
+
 •	Generating hardware hashes required for Microsoft Intune.
+
 •	Enrolling devices seamlessly in an enterprise environment.
+
 ADD-Languagehe.ps1 & Add_Hebrew_keyboard.ps1
 Useful for organizations or users requiring Hebrew language and keyboard support.
