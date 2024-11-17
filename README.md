@@ -6,11 +6,12 @@ Welcome to the IT Operations Shell Scripts repository! A collection of PowerShel
 
 The primary goal of these scripts is to empower IT teams to efficiently manage and configure devices using Microsoft Intune, enhancing endpoint management within your organization. Whether you're generating hardware hashes for Intune, retrieving computer names and serial numbers, or speeding up the installation process for new computers, these scripts are here to simplify your workload.
 
-Features
-•	System Information Retrieval: Quickly fetch critical system details like computer names, serial numbers, and more.
-•	Automation: Streamline tasks such as generating hardware hashes for Intune or configuring new systems.
-•	User-Friendly: Plug-and-play scripts that can be run directly from a USB stick.
-•	Customizable: Modify the scripts to fit your unique IT operations needs.
+# Features
+
+•	System Information Retrieval: Quickly fetch critical system details like computer names, serial numbers, and more. 
+•	Automation: Streamline tasks such as generating hardware hashes for Intune or configuring new systems. 
+•	User-Friendly: Plug-and-play scripts that can be run directly from a USB stick. 
+•	Customizable: Modify the scripts to fit your unique IT operations needs. 
 ________________________________________
 
 1. IT Shell Scripts
