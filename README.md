@@ -12,16 +12,17 @@ Features
 •	User-Friendly: Plug-and-play scripts that can be run directly from a USB stick.
 •	Customizable: Modify the scripts to fit your unique IT operations needs.
 ________________________________________
-Folder Structure
+
 1. IT Shell Scripts
 •	Sysinfo.bat: A script to gather system information for diagnostics or inventory management.
 •	GET Computer Name, Serial Number.bat: Fetches and displays the computer name and serial number for quick reference.
 •	never sleep.bat: Prevents the system from entering sleep mode.
-2. PowerShell-IT-Scripts
+
+3. PowerShell-IT-Scripts
 •	ADD-Languagehe.ps1: Adds support for Hebrew language settings.
 •	Add_Hebrew_keyboard.ps1: Installs and configures a Hebrew keyboard layout.
 •	WIN Enterprise MediaCreation.ps1: Facilitates the creation of Windows Enterprise media.
-3. install win and upload Hash to Intune
+4. install win and upload Hash to Intune
 •	CloudBat.bat: Automates tasks during Windows installation for Cloud PCs managed by Intune.
 o	Runs PowerShell scripts for hardware hash generation.
 o	Simplifies Intune device enrollment.
