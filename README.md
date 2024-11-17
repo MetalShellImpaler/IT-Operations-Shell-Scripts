@@ -51,3 +51,35 @@ Scripts to streamline Windows installation and device enrollment in Intune:
 1. **Clone or Download the Repository:**  
    ```bash  
    git clone https://github.com/MetalShellImpaler/IT-Operations-Shell-Scripts.git  
+
+2. ## 🚀 Run the Scripts  
+
+### Batch Files (`.bat`)  
+- Double-click to execute or run in Command Prompt.  
+
+### PowerShell Scripts (`.ps1`)  
+- Open PowerShell and run with the appropriate permissions.  
+
+---
+
+## 📋 Example Usage Scenarios  
+
+- **Use `CloudBat.bat` and `pshash.ps1`:** Streamline new device setup with Intune.  
+- **Run `Sysinfo.bat`:** Get a quick overview of system information during troubleshooting.  
+- **Execute `never sleep.bat`:** Prevent devices from sleeping during lengthy operations.  
+
+---
+
+## 🛠️ Script Details  
+
+### **Sysinfo.bat**  
+- Displays system information such as OS version, architecture, and device specifications.  
+
+### **GET Computer Name, Serial Number.bat**  
+- Outputs the device’s computer name and serial number for easy identification.  
+
+### **CloudBat.bat & pshash.ps1**  
+- Automate hardware hash generation and simplify Microsoft Intune device enrollment processes.  
+
+### **ADD-Languagehe.ps1 & Add_Hebrew_keyboard.ps1**  
+- Add Hebrew language support and keyboard layouts, perfect for localized configurations.  
