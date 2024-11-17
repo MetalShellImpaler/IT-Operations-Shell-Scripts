@@ -6,6 +6,7 @@ With a keen focus on optimizing workflows within Microsoft Azure, 365, and Intun
 # Purpose
 
 The primary goal of these scripts is to empower IT teams to efficiently manage and configure devices using Microsoft Intune, enhancing endpoint management within your organization. Whether you're generating hardware hashes for Intune, retrieving computer names and serial numbers, or speeding up the installation process for new computers, these scripts are here to simplify your workload.
+
 ---
 
 ## 📋 Features  
