@@ -20,6 +20,11 @@ echo.
 echo Checking Secure Boot status...
 powershell -Command "if (Confirm-SecureBootUEFI) { Write-Host 'Secure Boot is ENABLED' } else { Write-Host 'Secure Boot is DISABLED or unsupported' }"
 
+:: Check the status of BitLocker encryption
+echo.
+echo Checking BitLocker encryption...
+manage-bde -status C:
+
 :: Get CPU name and processor value
 echo.
 echo Checking CPU information...
