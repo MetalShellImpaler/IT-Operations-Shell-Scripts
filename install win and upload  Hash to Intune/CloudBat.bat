@@ -27,20 +27,7 @@ WMIC BIOS GET SERIALNUMBER
 : : run with the pshash.ps1 and Get-WindowsAutopilotInfo.ps1 scripts.
 
 @echo off
-setlocal EnableDelayedExpansion
-
-set "ps1_file=D:\hash\pshash.ps1"
-set "temp_file=%temp%\temp_ps1.ps1"
-
-(for /f "skip=1 tokens=*" %%a in ('type "%ps1_file%"') do (
-    echo %%a
-    set /a count+=1
-    if !count! equ 27 (
-        goto :eof
-    )
-)) > "%temp_file%"
-
-powershell.exe -ExecutionPolicy Bypass -File "%temp_file%"
+powershell -noprofile -executionpolicy unrestricted -command d:\hash\Get-WindowsAutopilotInfo.ps1 -OutputFile "D:\hash\Hash.csv" -Append
 
 :: Confirm-SecureBoot
 powershell -Command "Confirm-SecureBootUEFI"
