@@ -8,7 +8,7 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 # On Github:  https://github.com/MikePohatu/Get-WindowsAutoPilotInfo/blob/main/Get-WindowsAutoPilotInfo.ps1
 # Hash
 # d:\hash\hash.csv - The CSV file will be stored at this location. 
-# From Powershell:
+# With Powershell:
 .\Get-WindowsAutoPilotInfo.ps1 -OutputFile "D:\hash\Hash.csv" -Append
-# From CMD: 
+# With CMD: 
 powershell -noprofile -executionpolicy unrestricted -command d:\hash\Get-WindowsAutopilotInfo.ps1 -OutputFile "D:\hash\Hash.csv" -Append
