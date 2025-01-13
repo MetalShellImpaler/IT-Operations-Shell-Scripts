@@ -26,6 +26,9 @@ WMIC BIOS GET SERIALNUMBER
 : : run powershell script to generate hardware hash for Intune cloud windows installation.
 : : run with the pshash.ps1 and Get-WindowsAutopilotInfo.ps1 scripts.
 
+:: Download Get-WindowsAutoPilotInfo.ps1 
+:: # official source: https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/3.8/Content/Get-WindowsAutopilotInfo.ps1
+:: On Github:  https://github.com/MikePohatu/Get-WindowsAutoPilotInfo/blob/main/Get-WindowsAutoPilotInfo.ps1
 @echo off
 powershell -noprofile -executionpolicy unrestricted -command d:\hash\Get-WindowsAutopilotInfo.ps1 -OutputFile "D:\hash\Hash.csv" -Append
 
