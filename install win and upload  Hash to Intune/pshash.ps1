@@ -1,6 +1,6 @@
 # Generate hardware hash csv file.
 # Enable script
-#Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 
 #Converts serial number to string variable
 
