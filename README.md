@@ -35,8 +35,7 @@ PowerShell scripts for advanced configuration and setup:
 Scripts to streamline Windows installation and device enrollment in Intune:  
 - **`CloudBat.bat`**:  
   - Automates Windows Cloud PC installation.  
-  - Runs PowerShell scripts to generate hardware hashes for Intune enrollment.  
-  - Designed to work seamlessly with `pshash.ps1`.  
+  - Runs PowerShell scripts to generate hardware hashes for Intune enrollment.   
 - **`pshash.ps1`**:  
   - Generates hardware hash CSV files for Microsoft Intune.  
   - Simplifies device enrollment and management processes.  
