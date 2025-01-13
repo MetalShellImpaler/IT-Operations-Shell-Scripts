@@ -8,7 +8,8 @@ Save-Script -Name Get-WindowsAutoPilotInfo -Path C:\Users\USERNAME\Downloads
 
 # official source: https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/3.8/Content/Get-WindowsAutopilotInfo.ps1
 # On Github:  https://github.com/MikePohatu/Get-WindowsAutoPilotInfo/blob/main/Get-WindowsAutoPilotInfo.ps1
-# Hash
+
+# Generate hardware hash to a local disk:
 # d:\hash\hash.csv - The CSV file will be stored at this location. 
 # With Powershell:
 .\Get-WindowsAutoPilotInfo.ps1 -OutputFile "D:\hash\Hash.csv" -Append
