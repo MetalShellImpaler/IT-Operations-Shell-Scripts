@@ -10,6 +10,8 @@ $SN = $SN.Substring(($Position+1))
 $SN_String = $SN.Remove(8,1)
 $SN_String = $SN_String+'.csv'
 
-# https://github.com/MikePohatu/Get-WindowsAutoPilotInfo/blob/main/Get-WindowsAutoPilotInfo.ps1
+# official source: https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/3.8/Content/Get-WindowsAutopilotInfo.ps1
+# On Github:  https://github.com/MikePohatu/Get-WindowsAutoPilotInfo/blob/main/Get-WindowsAutoPilotInfo.ps1
 #Hash
-powershell -noprofile -executionpolicy unrestricted -command d:\hash\autopilot.ps1 -computername $env:COMPUTERNAME -outputfile d:\hash\hash.csv -append 
+# d:\hash\hash.csv - The CSV file will be stored at this location. 
+powershell -noprofile -executionpolicy unrestricted -command d:\hash\Get-WindowsAutopilotInfo.ps1 -computername $env:COMPUTERNAME -outputfile d:\hash\hash.csv -append 
