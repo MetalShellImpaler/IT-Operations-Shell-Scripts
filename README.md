@@ -62,7 +62,7 @@ Scripts to streamline Windows installation and device enrollment in Intune:
 
 - **Use `CloudBat.bat` and `pshash.ps1`:** Streamline new device setup with Intune.  
 - **Run `Sysinfo.bat`:** Get a quick overview of system information during troubleshooting.  
-- **Execute `never sleep.bat`:** Prevent devices from sleeping during lengthy operations.  
+- **Execute `never sleep.bat`:** Prevent devices from getting into sleep mode.
 
 ---
 
