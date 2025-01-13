@@ -24,8 +24,8 @@ WMIC BIOS GET SERIALNUMBER
 : : systeminfo
 
 : : run powershell script to generate hardware hash for Intune cloud windows installation.
-: : run with the pshash.ps1 script in the same directory as this script:
-: : the powershell script: https://github.com/mtniehaus/UpdateOS/blob/main/UpdateOS/UpdateOS.ps1
+: : run with the pshash.ps1 script.
+
 @echo off
 setlocal EnableDelayedExpansion
 
