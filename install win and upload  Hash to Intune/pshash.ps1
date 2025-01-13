@@ -1,5 +1,5 @@
 # Generate hardware hash csv file.
-# Enable script
+# Enable Powershell scripting:
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 
 #Download the Get-WindowsAutoPilotInfo.ps1 file:
