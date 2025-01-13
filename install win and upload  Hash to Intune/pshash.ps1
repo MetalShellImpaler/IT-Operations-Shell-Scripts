@@ -9,6 +9,6 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 # Hash
 # d:\hash\hash.csv - The CSV file will be stored at this location. 
 # From Powershell:
-.\Get-WindowsAutoPilotInfo.ps1 -OutputFile "D:\hash\rr\DeviceHash.csv" -Append
+.\Get-WindowsAutoPilotInfo.ps1 -OutputFile "D:\hash\Hash.csv" -Append
 # From CMD: 
 powershell -noprofile -executionpolicy unrestricted -command d:\hash\Get-WindowsAutopilotInfo.ps1 -OutputFile "D:\hash\Hash.csv" -Append
