@@ -1,0 +1,33 @@
+
+:: Power and Battery Diagnostics:
+
+powercfg /energy
+
+powercfg /sleepstudy
+
+powercfg /batteryreport
+
+:: System Performance:
+
+perfmon /report
+
+:: Network Diagnostics:
+
+netsh wlan show wlanreport
+
+:: Disk and Storage Diagnostics:
+
+chkdsk C: /f /r
+
+:: Drivers Diagnostics:
+
+driverquery /v
+
+:: Windows Update Diagnostics:
+
+Get-WindowsUpdateLog
+
+
+::system Health and Security:
+
+sfc /scannow
