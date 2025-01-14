@@ -1,3 +1,5 @@
+:: Diagwinlogs commends :
+:: to save output to a specific location: { -output "C:\Users\%username%\" }
 
 :: Power and Battery Diagnostics:
 
