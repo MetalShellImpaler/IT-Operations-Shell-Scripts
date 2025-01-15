@@ -43,7 +43,7 @@ powershell -Command "if ((Get-Tpm).TpmReady) { Write-Host 'TPM 2.0 is ENABLED' }
 powershell -Command "(Get-WmiObject -Namespace 'Root\CIMv2\Security\MicrosoftTpm' -Class Win32_Tpm).SpecVersion"
 
 
-: : optional: add Languagehe.
+: : optional: add Language.
 @echo off
 powershell.exe -ExecutionPolicy Bypass -File D:\..\Language.ps1
 
