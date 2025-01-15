@@ -42,13 +42,13 @@ Scripts to streamline Windows installation and device enrollment in Intune:
 
 ---
 
-## 🚀 How to Use  
+##  How to Use  
 
 1. **Clone or Download the Repository:**  
    ```bash  
    git clone https://github.com/MetalShellImpaler/IT-Operations-Shell-Scripts.git  
 
-2. ## 🚀 Run the Scripts  
+2. ##  Run the Scripts  
 
 ### Batch Files (`.bat`)  
 - Double-click to execute or run in Command Prompt.  
