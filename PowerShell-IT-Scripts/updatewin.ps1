@@ -6,7 +6,9 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
 
 #Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
+Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
+
 Install-Module PSWindowsUpdate
 Add-WUServiceManager -MicrosoftUpdate
 
-Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -Force # optional: -AutoReboot
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll  # optional: -AutoReboot
