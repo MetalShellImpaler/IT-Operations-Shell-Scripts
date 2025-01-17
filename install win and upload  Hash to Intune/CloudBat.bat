@@ -8,7 +8,7 @@ start ms-settings:
 
 :: run "updatewin.ps1" to update windows.
 :: IT-Operations-Shell-Scripts/PowerShell-IT-Scripts/updatewin.ps1
-:: powershell.exe -ExecutionPolicy Bypass -File D:\..\updatewin.ps1
+powershell.exe -ExecutionPolicy Bypass -File D:\..\updatewin.ps1
 
 : : Power settings (optional)
 powercfg -change -monitor-timeout-ac 0
