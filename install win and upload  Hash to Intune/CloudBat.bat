@@ -1,17 +1,14 @@
 :: A script to run when installing windows Cloud PC managed in Intune.
-:: Generate hardware hash.
+:: Generate hardware hash for Intune.
 
 : : configure windows settings:
 start ms-settings:
 
 ::Update windows:
-usoclient startscan
-Usoclient startdownload
-usoclient startinstall
 
 :: run "updatewin.ps1" to update windows.
 :: IT-Operations-Shell-Scripts/PowerShell-IT-Scripts/updatewin.ps1
-
+:: powershell.exe -ExecutionPolicy Bypass -File D:\..\updatewin.ps1
 
 : : Power settings (optional)
 powercfg -change -monitor-timeout-ac 0
