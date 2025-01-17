@@ -7,7 +7,7 @@ start ms-settings:
 ::Update windows:
 
 :: run "updatewin.ps1" to update windows.
-:: IT-Operations-Shell-Scripts/PowerShell-IT-Scripts/updatewin.ps1
+:: https://github.com/MetalShellImpaler/IT-Operations-Shell-Scripts/blob/main/PowerShell-IT-Scripts/updatewin.ps1
 powershell.exe -ExecutionPolicy Bypass -File D:\..\updatewin.ps1
 
 : : Power settings (optional)
