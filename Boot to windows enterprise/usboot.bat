@@ -9,7 +9,7 @@ RecoveryDrive.exe
 :: split the WIM file for fat32 compatibility
 Dism /Split-Image /ImageFile:C:\FILES\LOCATION\sources\install.wim /SWMFile:C:\FILES\LOCATION\files\sources\install.swm /FileSize:3800
 
-:: delete the big WIM file.
+:: delete the big WIM file from \sources.
 
 :: Copy the files from your the folder to the bootable USB drive.
 xcopy C:\win_ent\files D:\ /E /H /C /I /Y
