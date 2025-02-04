@@ -29,6 +29,6 @@ driverquery /v
 
 Get-WindowsUpdateLog
 
-::system Health and Security:
+:: System File Checker utility:
 
 sfc /scannow
