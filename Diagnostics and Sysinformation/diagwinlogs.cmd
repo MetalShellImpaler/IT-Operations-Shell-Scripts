@@ -25,6 +25,8 @@ chkdsk C: /f /r
 
 driverquery /v
 
+verifier
+
 :: Windows Update Diagnostics:
 
 Get-WindowsUpdateLog
