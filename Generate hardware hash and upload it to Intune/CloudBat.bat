@@ -34,9 +34,8 @@ WMIC BIOS GET SERIALNUMBER
 :: Download Get-WindowsAutoPilotInfo.ps1 
 :: official source: https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo/3.8/Content/Get-WindowsAutopilotInfo.ps1
 :: On Github:  https://github.com/MikePohatu/Get-WindowsAutoPilotInfo/blob/main/Get-WindowsAutoPilotInfo.ps1
-@echo off
-:: "d:\hash\.csv" - The CSV file will be stored at this location. 
 
+:: "d:\hash\.csv" - The CSV file will be stored at this location. 
 @echo off
 powershell -noprofile -executionpolicy unrestricted -command ^
 "$SerialNumber = (Get-WmiObject -Class Win32_BIOS).SerialNumber; ^
