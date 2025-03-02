@@ -37,6 +37,7 @@ WMIC BIOS GET SERIALNUMBER
 @echo off
 :: "d:\hash\.csv" - The CSV file will be stored at this location. 
 
+@echo off
 powershell -noprofile -executionpolicy unrestricted -command ^
 "$SerialNumber = (Get-WmiObject -Class Win32_BIOS).SerialNumber; ^
 $OutputFile = \"D:\hash\$SerialNumber.csv\"; ^
