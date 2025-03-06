@@ -39,4 +39,5 @@ sfc /scannow
 
 gpupdate /force
 GPRESULT /r
-GPRESULT /H GPReport.html :: C:\Windows\System32\GPReport.html
+GPRESULT /H GPReport.html 
+:: C:\Windows\System32\GPReport.html
