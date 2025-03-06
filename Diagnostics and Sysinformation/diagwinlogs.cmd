@@ -46,3 +46,4 @@ GPRESULT /H GPReport.html
 rsop.msc
 
 gpresult /Scope User /v
+gpresult /Scope Computer /v
