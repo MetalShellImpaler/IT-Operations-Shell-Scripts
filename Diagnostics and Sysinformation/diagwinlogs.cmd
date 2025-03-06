@@ -34,3 +34,9 @@ Get-WindowsUpdateLog
 :: System File Checker utility:
 
 sfc /scannow
+
+::Domain GPO:
+
+gpupdate /force
+GPRESULT /r
+GPRESULT /H GPReport.html :: C:\Windows\System32\GPReport.html
