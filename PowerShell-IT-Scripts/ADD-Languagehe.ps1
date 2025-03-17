@@ -15,5 +15,5 @@ if ($KeyboardOptions -ne $null) {
 
     Set-WinUserLanguageList -LanguageList $LanguageList -Force
 } else {
-    Write-Host "Error: Failed to find Hebrew language entry in the language list."
+    Write-Host "Error: Failed to find * language entry in the language list."
 }
