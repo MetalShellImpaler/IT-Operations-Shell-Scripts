@@ -1,81 +1,74 @@
-# IT Operations Shell Scripts  
+# IT Operations Shell Scripts
+
+<div align="center">
+  <img src="https://img.shields.io/github/last-commit/MetalShellImpaler/IT-Operations-Shell-Scripts" alt="GitHub last commit"/>
+  <img src="https://img.shields.io/github/repo-size/MetalShellImpaler/IT-Operations-Shell-Scripts" alt="GitHub repo size"/>
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg" alt="License"/>
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/Powershell_256.png" width="100" alt="PowerShell Logo"/>
+  <img src="https://raw.githubusercontent.com/microsoft/fluentui-system-icons/master/assets/Server/SVG/ic_fluent_server_20_regular.svg" width="100" alt="Server Icon"/>
+  <img src="https://raw.githubusercontent.com/microsoft/fluentui-system-icons/master/assets/Cloud/SVG/ic_fluent_cloud_20_regular.svg" width="100" alt="Cloud Icon"/>
+</div>
+
+<br/>
 
 A comprehensive collection of scripts designed to streamline IT workflows, automate repetitive tasks, and simplify system management. This repository is ideal for IT administrators, technicians, and anyone looking to enhance operational efficiency with minimal effort.
 With a keen focus on optimizing workflows within Microsoft Azure, 365, and Intune environments.
 
-# Purpose
 
-The primary goal of these scripts is to empower IT teams to efficiently manage and configure devices using Microsoft Intune, enhancing endpoint management within your organization. Whether you're generating hardware hashes for Intune, retrieving computer names and serial numbers, or speeding up the installation process for new computers, these scripts are here to simplify your workload.
+## 🚀 Overview
 
----
+These scripts empower IT teams to efficiently manage and configure devices using Microsoft Intune, enhancing endpoint management within your organization. Whether you're generating hardware hashes for Intune, retrieving computer names and serial numbers, or speeding up the installation process for new computers, these scripts are here to simplify your workload.
 
-## 📋 Features  
-- **System Information Retrieval:** Quickly gather critical details like computer names and serial numbers.  
-- **Automation:** Simplify tasks such as generating hardware hashes for Intune enrollment or configuring system settings.  
-- **User-Friendly:** Designed for easy execution, these scripts can run directly from a USB drive.  
-- **Customizable:** Adapt scripts to your specific IT requirements effortlessly.  
+## 📁 Repository Structure
 
----
+```
+IT-Operations-Shell-Scripts/
+├── Boot to windows enterprise/        # Windows Enterprise deployment tools
+├── Diagnostics and Sysinformation/    # System information gathering tools
+├── Generate hardware hash and upload it to Intune/  # Intune enrollment automation
+├── IT shell-scripts/                  # General purpose IT shell scripts
+├── Microsoft Office 365/              # M365 management tools
+├── PowerShell-IT-Scripts/             # Advanced PowerShell automation
+├── LICENSE
+└── README.md
+```
 
-## 📂 Repository Structure  
+## ✨ Key Features
 
-### **IT Shell Scripts**  
-Batch scripts for quick and efficient system management:  
-- **`Sysinfo.bat`**: Displays detailed system information for troubleshooting or inventory.  
-- **`GET Computer Name, Serial Number.bat`**: Fetches the computer name and serial number for device tracking.  
-- **`never sleep.bat`**: Prevents the system from entering sleep mode during extended tasks.  
+- **System Information Retrieval**: Quickly gather critical details like computer names and serial numbers
+- **Intune Integration**: Streamline device enrollment with automated hardware hash generation
+- **Automation**: Simplify tasks such as generating hardware hashes for Intune enrollment or configuring system settings
+- **User-Friendly**: Designed for easy execution, many scripts can run directly from a USB drive
+- **Customizable**: Adapt scripts to your specific IT requirements effortlessly
 
-### **PowerShell-IT-Scripts**  
-PowerShell scripts for advanced configuration and setup:  
-- **`ADD-Languagehe.ps1`**: Adds Hebrew language support to Windows.  
-- **`Add_Hebrew_keyboard.ps1`**: Configures the Hebrew keyboard layout.  
-- **`WIN Enterprise MediaCreation.ps1`**: Automates the creation of Windows Enterprise installation media.  
+## 💻 Script Highlights
 
-### **Install Win and Upload Hash to Intune**  
-Scripts to streamline Windows installation and device enrollment in Intune:  
-- **`CloudBat.bat`**:  
-  - Automates Windows Cloud PC installation.  
-  - Runs PowerShell scripts to generate hardware hashes for Intune enrollment.   
-- **`pshash.ps1`**:  
-  - Generates hardware hash CSV files for Microsoft Intune.  
-  - Simplifies device enrollment and management processes.  
+### Intune Integration
+| Script | Description |
+|--------|-------------|
+| `CloudBat.bat` | Automates Windows Cloud PC installation and runs PowerShell scripts to generate hardware hashes |
+| `pshash.ps1` | Generates hardware hash CSV files for Microsoft Intune to simplify device enrollment |
 
----
 
-##  How to Use  
+## 📋 Example Usage Scenarios
 
-1. **Clone or Download the Repository:**  
-   ```bash  
-   git clone https://github.com/MetalShellImpaler/IT-Operations-Shell-Scripts.git  
+- **New Device Setup**: Use `CloudBat.bat` and `pshash.ps1` to streamline new device setup with Intune
+- **System Troubleshooting**: Run `Sysinfo.bat` to get a quick overview of system information
+- **Extended Maintenance**: Execute `never sleep.bat` to prevent devices from entering sleep mode
+- **Localization**: Apply `ADD-Languagehe.ps1` for Hebrew language support
 
-2. ##  Run the Scripts  
 
-### Batch Files (`.bat`)  
-- Double-click to execute or run in Command Prompt.  
+  Clone or Download the Repository:
+   ```bash
+   git clone https://github.com/MetalShellImpaler/IT-Operations-Shell-Scripts.git
 
-### PowerShell Scripts (`.ps1`)  
-- Open PowerShell and run with the appropriate permissions.  
 
----
+## 📜 License
 
-## 📋 Example Usage Scenarios  
-
-- **Use `CloudBat.bat` and `pshash.ps1`:** Streamline new device setup with Intune.  
-- **Run `Sysinfo.bat`:** Get a quick overview of system information during troubleshooting.  
-- **Execute `never sleep.bat`:** Prevent devices from getting into sleep mode.
+This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the LICENSE file for details.
 
 ---
 
-## 🛠️ Script Details  
-
-### **Sysinfo.bat**  
-- Displays system information such as OS version, architecture, and device specifications.  
-
-### **GET Computer Name, Serial Number.bat**  
-- Outputs the device’s computer name and serial number for easy identification.  
-
-### **CloudBat.bat & pshash.ps1**  
-- Automate hardware hash generation and simplify Microsoft Intune device enrollment processes.  
-
-### **ADD-Languagehe.ps1 & Add_Hebrew_keyboard.ps1**  
-- Add Hebrew language support and keyboard layouts, perfect for localized configurations.  
+  ⭐ <b>If you find these scripts useful, please star the repository!</b> ⭐
+</div>
