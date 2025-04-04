@@ -16,7 +16,7 @@ A comprehensive collection of scripts designed to streamline IT workflows, autom
 With a keen focus on optimizing workflows within Microsoft Azure, 365, and Intune environments.
 
 
-## 🚀 Overview
+##  Overview
 
 These scripts empower IT teams to efficiently manage and configure devices using Microsoft Intune, enhancing endpoint management within your organization. Whether you're generating hardware hashes for Intune, retrieving computer names and serial numbers, or speeding up the installation process for new computers, these scripts are here to simplify your workload.
 
@@ -42,7 +42,7 @@ IT-Operations-Shell-Scripts/
 - **User-Friendly**: Designed for easy execution, many scripts can run directly from a USB drive
 - **Customizable**: Adapt scripts to your specific IT requirements effortlessly
 
-## 💻 Script Highlights
+##  Script Highlights
 
 ### Intune Integration
 | Script | Description |
@@ -51,7 +51,7 @@ IT-Operations-Shell-Scripts/
 | `pshash.ps1` | Generates hardware hash CSV files for Microsoft Intune to simplify device enrollment |
 
 
-## 📋 Example Usage Scenarios
+##  Example Usage Scenarios
 
 - **New Device Setup**: Use `CloudBat.bat` and `pshash.ps1` to streamline new device setup with Intune
 - **System Troubleshooting**: Run `Sysinfo.bat` to get a quick overview of system information
