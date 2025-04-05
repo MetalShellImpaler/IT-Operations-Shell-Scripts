@@ -1,5 +1,7 @@
 :: A script to run when installing windows Cloud PC managed in Intune.
 :: Generate hardware hash for Intune.
+:: During Windows installation and Setup:
+:: Press Shift + F10
 
 : : configure windows settings:
 start ms-settings:
