@@ -63,6 +63,16 @@ IT-Operations-Shell-Scripts/
    ```bash
    git clone https://github.com/MetalShellImpaler/IT-Operations-Shell-Scripts.git
 
+## 🔄 Quick Execution with IRM (Invoke-RestMethod) PowerShell
+
+Run scripts directly without downloading scripts or the entire repository:
+
+### Examples
+
+```powershell
+# Add Hebrew language support
+irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scripts/main/PowerShell-IT-Scripts/ADD-Languagehe.ps1" | iex
+```
 
 ## 📜 License
 
