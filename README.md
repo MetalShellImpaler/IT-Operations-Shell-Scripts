@@ -28,6 +28,7 @@ IT-Operations-Shell-Scripts/
 ├── Diagnostics and Sysinformation/    # System information gathering tools
 ├── Generate hardware hash and upload it to Intune/  # Intune enrollment automation
 ├── IT shell-scripts/                  # General purpose IT shell scripts
+├── Intune Endpoints Debugging/        # Debug Intune Endpoints scripts
 ├── Microsoft Office 365/              # M365 management tools
 ├── PowerShell-IT-Scripts/             # Advanced PowerShell automation
 ├── LICENSE
