@@ -1,4 +1,4 @@
-﻿# Intune Toolkit - Advanced Edition
+﻿# Intune Debug-CLI Advanced Tool
 $logFile = "C:\IntuneToolLog.log"
 
 function Write-Log {
