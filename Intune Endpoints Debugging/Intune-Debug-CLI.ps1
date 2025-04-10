@@ -40,7 +40,7 @@ function Check-PolicyRegistry {
 }
 
 function Check-AzureADJoin {
-    Write-Host "`n🔗 Azure AD + MDM Enrollment Status:" -ForegroundColor Yellow
+    Write-Host "`n Azure AD + MDM Enrollment Status:" -ForegroundColor Yellow
     $status = dsregcmd /status
     $status | Out-Host
     return $status
