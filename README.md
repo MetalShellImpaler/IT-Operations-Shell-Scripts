@@ -34,6 +34,21 @@ IT-Operations-Shell-Scripts/
 ├── LICENSE
 └── README.md
 ```
+## 🔄 Quick Execution with IRM (Invoke-RestMethod) PowerShell
+
+Run scripts directly without downloading scripts or the entire repository:
+
+### Examples
+
+```powershell
+
+# Debug Intune Endpoints
+irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scripts/main/Intune%20Endpoints%20Debugging/Intune-Debug-CLI.ps1" | iex
+```
+```
+# Add Hebrew language support
+irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scripts/main/PowerShell-IT-Scripts/ADD-Languagehe.ps1" | iex
+```
 
 ## ✨ Key Features
 
@@ -61,19 +76,9 @@ IT-Operations-Shell-Scripts/
 
 
   Clone or Download the Repository:
-   ```bash
+   ```
    git clone https://github.com/MetalShellImpaler/IT-Operations-Shell-Scripts.git
-
-## 🔄 Quick Execution with IRM (Invoke-RestMethod) PowerShell
-
-Run scripts directly without downloading scripts or the entire repository:
-
-### Examples
-
-```powershell
-# Add Hebrew language support
-irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scripts/main/PowerShell-IT-Scripts/ADD-Languagehe.ps1" | iex
-```
+   ```
 
 ## 📜 License
 
