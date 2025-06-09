@@ -16,3 +16,7 @@ C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\IntuneManagementExtensio
 
 # Intune Sync
 Start-Process -FilePath "C:\Program Files (x86)\Microsoft Intune Management Extension\Microsoft.Management.Services.IntuneWindowsAgent.exe" -ArgumentList "intunemanagementextension://synccompliance"
+
+# local user accounts
+Get-CimInstance Win32_UserAccount
+
