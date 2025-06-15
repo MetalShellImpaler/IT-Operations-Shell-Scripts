@@ -1,6 +1,6 @@
 # Deployment Script to check if the user's profile is new or not.
-# use it in case you want to deploy something only for new enrolled Devices.
-# this script is using the  PowerShell command: $profileItem.CreationTime)
+# Use it in case you want to deploy something only for new enrolled Devices.
+# This script is using the  PowerShell command: $profileItem.CreationTime
 # to check if the users profile is new or not.
 
 # $profileItem.CreationTime.ToString("yyyy-MM-dd HH:mm:ss")
