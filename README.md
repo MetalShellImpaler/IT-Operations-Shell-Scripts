@@ -25,6 +25,7 @@ These scripts empower IT teams to efficiently manage and configure devices using
 ```
 IT-Operations-Shell-Scripts/
 ├── Boot to windows enterprise/        # Windows Enterprise deployment tools
+├── Deployment_Scripts/                # 
 ├── Diagnostics and Sysinformation/    # System information gathering tools
 ├── Generate hardware hash and upload it to Intune/  # Intune enrollment automation
 ├── IT shell-scripts/                  # General purpose IT shell scripts
