@@ -7,11 +7,11 @@ echo.
 
 @echo off
 
-:: Check TPM 2.0 status using PowerShell Get-Tpm command
-echo Checking TPM 2.0...
-powershell -Command "if ((Get-Tpm).TpmReady) { Write-Host 'TPM 2.0 is ENABLED' } else { Write-Host 'TPM 2.0 is NOT ENABLED' }"
+:: Check TPM  status using PowerShell Get-Tpm command
+echo Checking if TPM is enabled 
+powershell -Command "if ((Get-Tpm).TpmReady) { Write-Host 'TPM is ENABLED' } else { Write-Host 'TPM is NOT ENABLED' }"
 
-:: Check TPM version using PowerShell
+:: Check TPM version
 echo Checking TPM version...
 powershell -Command "(Get-WmiObject -Namespace 'Root\CIMv2\Security\MicrosoftTpm' -Class Win32_Tpm).SpecVersion"
 
