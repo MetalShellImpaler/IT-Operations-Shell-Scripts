@@ -24,7 +24,9 @@ powercfg /change standby-timeout-dc 0
 ::powercfg /SETACVALUEINDEX SCHEME_CURRENT 0012ee47-9041-4b5d-9b77-535fba8b1442 6738e2c4-e8a5-4a42-b16a-e040e769756e seconds
 
 : : Show SERIALNUMBER
-WMIC BIOS GET SERIALNUMBER
+: : WMIC BIOS GET SERIALNUMBER
+: : After Windows 24H2:
+powershell -Command "get-ciminstance win32_bios | select SerialNumber"
 
 : : more optinal commands:
 : : powercfg /list
