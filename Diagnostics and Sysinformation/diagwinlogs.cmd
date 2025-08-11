@@ -9,6 +9,8 @@ powercfg /sleepstudy
 
 powercfg /batteryreport
 
+powercfg /energy /duration 120 
+
 :: System Performance:
 
 perfmon /report
@@ -47,3 +49,4 @@ rsop.msc
 
 gpresult /Scope User /v
 gpresult /Scope Computer /v
+
