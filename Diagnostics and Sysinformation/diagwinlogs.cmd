@@ -50,3 +50,6 @@ rsop.msc
 gpresult /Scope User /v
 gpresult /Scope Computer /v
 
+::User Accounts
+netplwiz
+
