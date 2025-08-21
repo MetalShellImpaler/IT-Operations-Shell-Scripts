@@ -25,7 +25,7 @@ These scripts empower IT teams to efficiently manage and configure devices using
 ```
 IT-Operations-Shell-Scripts/
 ├── Boot to windows enterprise/        # Windows Enterprise deployment tools
-├── Deployment_Scripts/                # Scripts for deploying applications and configuring system settings
+├── Deployment_Scripts/                # Scripts for deploying apps and configuring system settings
 ├── Diagnostics and Sysinformation/    # System information gathering tools
 ├── Generate hardware hash and upload it to Intune/  # Intune enrollment automation
 ├── IT shell-scripts/                  # General purpose IT shell scripts
@@ -71,9 +71,9 @@ irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scr
 ##  Example Usage Scenarios
 
 - **New Device Setup**: Use `CloudBat.bat` and `pshash.ps1` to streamline new device setup with Intune
-- **System Troubleshooting**: Run `Sysinfo.bat` to get a quick overview of system information
-- **Extended Maintenance**: Execute `never sleep.bat` to prevent devices from entering sleep mode
-- **Localization**: Apply `ADD-Languagehe.ps1` for Hebrew language support
+- **Intune Debugging** Run `Intune-Debug-CLI.ps1` as an advanced command-line tool for troubleshooting and debugging Intune-managed devices.
+- **Force 64-bit Execution**: Use `Runas64bit.ps1` to automatically restart PowerShell in 64-bit mode when launched from a 32-bit environment.
+- **Profile Detection for Deployments**: `Run Detect_newprofile.ps1` to determine if a user’s profile is new. Useful for deploying configurations or apps only on freshly enrolled devices.
 
 
   Clone or Download the Repository:
