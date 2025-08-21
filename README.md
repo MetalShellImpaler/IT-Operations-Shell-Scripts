@@ -59,14 +59,6 @@ irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scr
 - **PowerShell Automation** – Advanced PowerShell scripts to accelerate IT operations and reduce manual effort.
 - **Customizable**: Adapt scripts to your specific IT requirements effortlessly.
 
-##  Script Highlights
-
-### Intune Integration
-| Script | Description |
-|--------|-------------|
-| `CloudBat.bat` | Automates Windows Cloud PC installation and runs PowerShell scripts to generate hardware hashes |
-| `pshash.ps1` | Generates hardware hash CSV files for Microsoft Intune to simplify device enrollment |
-
 
 ##  Example Usage Scenarios
 
