@@ -54,10 +54,10 @@ irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scr
 ## ✨ Key Features
 
 - **Application & Settings Deployment** – Automate installation and configuration of apps and system settings.
-- **Intune Integration**: Streamline device enrollment with automated hardware hash generation
+- **Intune Integration**: Streamline device enrollment with automated hardware hash generation.
 - **General IT Operations** – A collection of versatile shell scripts for day-to-day IT management tasks.
 - **PowerShell Automation** – Advanced PowerShell scripts to accelerate IT operations and reduce manual effort.
-- **Customizable**: Adapt scripts to your specific IT requirements effortlessly
+- **Customizable**: Adapt scripts to your specific IT requirements effortlessly.
 
 ##  Script Highlights
 
