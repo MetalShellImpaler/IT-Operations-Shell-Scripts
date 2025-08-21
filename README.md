@@ -73,7 +73,7 @@ irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scr
 - **New Device Setup**: Use `CloudBat.bat` and `pshash.ps1` to streamline new device setup with Intune
 - **Intune Debugging** Run `Intune-Debug-CLI.ps1` as an advanced command-line tool for troubleshooting and debugging Intune-managed devices.
 - **Force 64-bit Execution**: Use `Runas64bit.ps1` to automatically restart PowerShell in 64-bit mode when launched from a 32-bit environment.
-- **Profile Detection for Deployments**: `Run Detect_newprofile.ps1` to determine if a user’s profile is new. Useful for deploying configurations or apps only on freshly enrolled devices.
+- **Profile Detection for Deployments**: Run `Detect_newprofile.ps1` to determine if a user’s profile is new. Useful for deploying configurations or apps only on freshly enrolled devices.
 
 
   Clone or Download the Repository:
