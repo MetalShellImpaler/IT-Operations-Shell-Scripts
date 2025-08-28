@@ -21,5 +21,6 @@ Start-Process -FilePath "C:\Program Files (x86)\Microsoft Intune Management Exte
 # local user accounts
 Get-CimInstance Win32_UserAccount
 
-# Location of the scripts which run fron intune
+# Scripts deployed via Intune are stored and run from this location
 C:\Windows\IMECache\HealthScripts
+
