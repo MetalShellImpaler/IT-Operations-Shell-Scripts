@@ -12,6 +12,7 @@ Select-Object TimeCreated, Id, LevelDisplayName, Message
 mdmdiagnosticstool -out C:\IntuneReport.zip
 
 # Check IME logs manually
+# Read logs with CMTrace.exe
 C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\IntuneManagementExtension.log
 
 # Intune Sync
@@ -20,3 +21,5 @@ Start-Process -FilePath "C:\Program Files (x86)\Microsoft Intune Management Exte
 # local user accounts
 Get-CimInstance Win32_UserAccount
 
+# Location of the scripts which run fron intune
+C:\Windows\IMECache\HealthScripts
