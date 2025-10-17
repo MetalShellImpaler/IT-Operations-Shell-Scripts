@@ -32,7 +32,7 @@ IT-Operations-Shell-Scripts/
 ├── Intune Endpoints Debugging/        # Debug Intune Endpoints scripts
 ├── Microsoft Office 365/              # M365 management tools
 ├── PowerShell-IT-Scripts/             # Advanced PowerShell automation
-├── XML_aoutmation                     #
+├── XML_Automation                     #
 ├── LICENSE
 └── README.md
 ```
