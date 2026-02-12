@@ -20,7 +20,7 @@ With a keen focus on optimizing workflows within Microsoft Azure, 365, and Intun
 
 These scripts empower IT teams to efficiently manage and configure devices using Microsoft Intune, enhancing endpoint management within your organization. Whether you're generating hardware hashes for Intune, retrieving computer names and serial numbers, or speeding up the installation process for new computers, these scripts are here to simplify your workload.
 
-## 📁 Repository Structure
+## Repository Structure 📁
 
 ```
 IT-Operations-Shell-Scripts/
@@ -36,7 +36,7 @@ IT-Operations-Shell-Scripts/
 ├── LICENSE
 └── README.md
 ```
-## 🔄 Quick Execution with IRM (Invoke-RestMethod) PowerShell
+## Quick Execution with IRM (Invoke-RestMethod) PowerShell
 
 Run scripts directly without downloading scripts or the entire repository:
 
@@ -52,7 +52,7 @@ irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scr
 irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scripts/main/PowerShell-IT-Scripts/ADD-Languagehe.ps1" | iex
 ```
 
-## ✨ Key Features
+## Key Features
 
 - **Application & Settings Deployment** – Automate installation and configuration of apps and system settings.
 - **Intune Integration**: Streamline device enrollment with automated hardware hash generation.
@@ -74,7 +74,7 @@ irm "https://raw.githubusercontent.com/MetalShellImpaler/IT-Operations-Shell-Scr
    git clone https://github.com/MetalShellImpaler/IT-Operations-Shell-Scripts.git
    ```
 
-## 📜 License
+## License
 
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the LICENSE file for details.
 
