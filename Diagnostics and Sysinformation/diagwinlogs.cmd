@@ -53,3 +53,5 @@ gpresult /Scope Computer /v
 ::User Accounts
 netplwiz
 
+:: DNS to DOMAIN:
+nltest /dsgetdc:domain.com
